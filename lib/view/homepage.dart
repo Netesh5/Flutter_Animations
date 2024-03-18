@@ -1,4 +1,4 @@
-import 'package:animation_app/view/black_hole/black_hole.dart';
+import 'package:animation_app/view/hidden_card_animation/black_hole.dart';
 import 'package:animation_app/view/animate_package/animate_pacekage_page.dart';
 import 'package:animation_app/view/animate_package/animated_list.dart';
 import 'package:animation_app/view/animate_package/blur_animation.dart';
@@ -94,7 +94,7 @@ class HomePage extends StatelessWidget {
             },
           ),
           ListTile(
-            title: const Text("Solar System"),
+            title: const Text("Hidden card animation"),
             onTap: () {
               Navigator.push(
                   context,
